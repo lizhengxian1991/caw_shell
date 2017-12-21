@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\github\caw_shell\app\jniLibs"><file name="armeabi/libcawshell.so" path="E:\github\caw_shell\app\jniLibs\armeabi\libcawshell.so"/><file name="armeabi/libwebviewuc.so" path="E:\github\caw_shell\app\jniLibs\armeabi\libwebviewuc.so"/><file name="armeabi/libwebviewuc_plat_support.so" path="E:\github\caw_shell\app\jniLibs\armeabi\libwebviewuc_plat_support.so"/></source></dataSet><dataSet config="debug"><source path="E:\github\caw_shell\app\src\debug\jniLibs"/></dataSet></merger>

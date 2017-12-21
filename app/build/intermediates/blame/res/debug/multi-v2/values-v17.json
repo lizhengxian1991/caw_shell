@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\github\\caw_shell\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "map": [
+                {
+                    "source": "E:\\github\\caw_shell\\app\\res\\values-v17\\styles_ui.xml",
+                    "from": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "242",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "426"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "237"
+                    }
+                },
+                {
+                    "source": "E:\\github\\caw_shell\\app\\res\\values-v17\\styles_content.xml",
+                    "from": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "240",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "482"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "242",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "481"
+                    }
+                }
+            ]
+        }
+    ]
+}

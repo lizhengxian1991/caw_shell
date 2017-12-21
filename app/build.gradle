@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application' //声明是Android程序 不同版本可能这里写法不一样
+
+dependencies {
+    compile fileTree(dir: 'libs', include: '*.jar')  //导入jar包
+//    compile 'com.android.support:support-v4:27.0.2'
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '26.0.2' //build tools版本
+
+    defaultConfig{
+        applicationId 'com.uc.webkit.test'
+        targetSdkVersion 19
+        minSdkVersion 14
+        versionName '1.0'
+        versionCode 1
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['jniLibs']
+        }
+    }
+}

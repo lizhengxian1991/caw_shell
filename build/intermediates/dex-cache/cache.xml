@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\github\caw_shell\app\libs\jsr_305_javalib.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="19.1.0"
+        sha1="e406c5563bb5e87b223e281e12f70436f1ee2d91">
+        <dex dex="E:\github\caw_shell\app\build\intermediates\pre-dexed\debug\jsr_305_javalib_84881373bfb965940075dbc61e5b61a41d9c697c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\caw_shell\app\libs\guava_javalib.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="19.1.0"
+        sha1="f382d8902ffcc9a5fb77ee18cce92038c17e68c2">
+        <dex dex="E:\github\caw_shell\app\build\intermediates\pre-dexed\debug\guava_javalib_dccbc106cd6d8bf0703114aca57b0ea89b0d7189.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\caw_shell\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="19.1.0"
+        sha1="307c1cc532eabbf1d135b43e5c983c9da700449d">
+        <dex dex="E:\github\caw_shell\app\build\intermediates\pre-dexed\debug\android-support-v4_d3b6499df818372db496445551b72b050b7f0c08.jar" />
+    </item>
+
+</items>
