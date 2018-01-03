@@ -1,12 +1,16 @@
 bin/
 obj/
 gen/
+.idea/
+*.iml
 .settings/
 .externalToolBuilders/
-
+build/
+.gradle/
 .classpath
 .cproject
 .project
 gdb.setup
 gdbserver
+local.properties
 
