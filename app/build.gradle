@@ -14,6 +14,11 @@ android {
         minSdkVersion 19
         versionName '1.0'
         versionCode 1
+        ndk {
+            // Specifies the ABI configurations of your native
+            // libraries Gradle should build and package with your APK.
+            abiFilters 'armeabi'
+        }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_7
@@ -32,4 +37,10 @@ android {
             jniLibs.srcDirs = ['jniLibs']
         }
     }
+    externalNativeBuild {
+        cmake {
+            path 'CMakeLists.txt'
+        }
+    }
+
 }
