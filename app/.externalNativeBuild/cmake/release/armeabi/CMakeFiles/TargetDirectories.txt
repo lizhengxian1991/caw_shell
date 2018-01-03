@@ -1,2 +1,0 @@
-E:/github/caw_shell/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/edit_cache.dir
-E:/github/caw_shell/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/rebuild_cache.dir
